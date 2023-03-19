@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/337be747ec.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="mystyle.css">
+
+    <title>Document</title>
+
+</head>
+<body>
+<nav class="nav1">
+    <a href="">LLamanos Hoy: (686)838-14-14</a>      |
+    <a href="">Nuestra Ubicación: Blv. Justo Sierra #233</a> |
+    <a href="">Horario: Lunes a Sabado 09:00 am to 11:00 pm</a> |
+</nav>
+    <nav class="menu">
+        <img class="logo" src="img/logo.jpg" alt="este es el logo"> 
+        <a class="link-login" href="#">Iniciar Sesión</a>
+        <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a><!--add  the icon-->
+        <button class="joinBtn"><u>Noticias</u></button>
+        <a class="link-subs" href="#">Subscripción</a>
+        <a class="link-menu" href="#">MENU</a>
+        <a class="link-angle" href="#"><i class="fa-solid fa-angles-down"></i></a>      
+    </nav> <!---cierra clase-->
+
+    <nav class="nav2">
+       
+        <a href="https://www.facebook.com"> <img class="facebook" href="#" src="img/facebook1.png"></a>
+        <a href="https://www.instagram.com"> <img class="instagram" src="img/instagram2.png"></a>
+        <a href="https://www.twitter.com"></a><img class="twitter" src="img/twitter2.png"></a>
+    </nav>
+
+<div class="puppy">
+    <center><img src="img/puppy.jpg"</center>
+<div class="texto1">Cada mascota merece</div>
+<div class="texto2">Cuidado de celebridades</div>
+</div>
+<div>
+    <a href="register.html">
+    <button class="botoncita" onclick="">Registro de mascotas</button>
+</div>
+
+<div id="current_date"></p>
+    
+    <script>
+   date = new Date();
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+    document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+    </script>
+</body>
+</html>

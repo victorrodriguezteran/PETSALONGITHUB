@@ -1,0 +1,38 @@
+
+.formulario{
+    background-color:blueviolet;
+    /*display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 40%;    
+}
+.formulario input, .formulario select{
+
+    display: block;
+    margin: 20 px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.error{
+border:1px solid red;
+}
+.card{  
+    background-color: white;
+    font-family: monospace;
+    border: 1px solid black;
+    padding: 10 px;
+    border-radius: 10 px;
+
+}
+#mascotas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
+}
+.h2text{
+    text-align: center;
+}

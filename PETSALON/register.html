@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="register.css">
+   <link rel="stylesheet" href="mystyle.css">
+
+    <title>Resistro de Nueva mascota</title>
+</head> 
+<body>
+    <nav class="nav1">
+        <a href="">LLamanos Hoy: (686)838-14-14</a>      |
+        <a href="">Nuestra Ubicación: Blv. Justo Sierra #233</a> |
+        <a href="">Horario: Lunes a Sabado 09:00 am to 11:00 pm</a> |
+    </nav>
+        <nav class="menu">
+            <img class="logo" src="img/logo.jpg" alt="este es el logo"> 
+            <a class="link-login" href="#">Iniciar Sesión</a>
+            <a class="link-search" href="#"><i class="fa-solid fa-magnifying-glass"></i></a><!--add  the icon-->
+            <button class="joinBtn"><u>Noticias</u></button>
+            <a class="link-subs" href="#">Subscripción</a>
+            <a class="link-menu" href="#">MENU</a>
+            <a class="link-angle" href="#"><i class="fa-solid fa-angles-down"></i></a>      
+        </nav>
+        <nav class="nav2">
+            <a href="https://www.facebook.com"> <img class="facebook" href="#" src="img/facebook1.png"></a>
+            <a href="https://www.instagram.com"> <img class="instagram" src="img/instagram2.png"></a>
+            <a href="https://www.twitter.com"></a><img class="twitter" src="img/twitter2.png"></a>
+        </nav>
+    <h2 class="h2text">REGISTRO DE  NUEVA MASCOTA</h2>
+    <div>
+        <div class="formulario">
+            <input type="text" placeholder="ingresa tu nombre" id="txtNombredueno" class="error">
+            <input type="text" placeholder="Ingresa tu Número telefónico de contacto" id="txtTelefono">
+            <select ID="selMascota">
+                <option value=""disable selected>--Tipo de mascota--</option>
+                <option value="selCachorro">Cachorro</option>
+                <option value="selGato">Gato</option>
+            </select>
+            <input type="text" placeholder="ingresa el  nombre tu mascota" id="txtNombre">
+            <input type="text" placeholder="ingresa el  genero tu mascota" id="txtGenero">
+            <input type="text" placeholder="ingresa la raza de tu mascota" id="txtRaza">
+            <select ID="selServicio">
+                <option value=""disable selected>--selecciona un servicio--</option>
+                <option value="Vacunas">Vacunas antirribaca, polio.</option>
+                <option value="Grooming">Servicio completo de limpieza</option>
+            </select>
+            <button onclick="Registro();">Registrar</button>
+        </div>
+            <h2 class="h2text">Mascotas registradas en el sistema</h2>
+            <div id="mascotas"> <!--aqui se insertarán las mascotas-->
+    </div>
+        <script src="scripts/register.js"></script>
+        <script src="scripts/display.js"></script> 
+
+
+</body>
+</html>
